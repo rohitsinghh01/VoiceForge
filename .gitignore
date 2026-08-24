@@ -51,3 +51,6 @@ next-env.d.ts
 
 
 /scripts/system-voices
+
+chatterbox_tts.py
+__pycache__
