@@ -34,7 +34,8 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-
+import { UsageContainer } from "@/features/billing/components/usage-container";
+import { VoiceCreateDialog } from "@/features/voices/components/voice-create-dialog";
 
 interface MenuItem {
   title: string;
@@ -150,13 +151,13 @@ export function DashboardSidebar() {
           >
             <Image
               src="/logo.svg"
-              alt="VoiceForge"
+              alt="Resonance"
               width={24}
               height={24}
               className="rounded-sm"
             />
             <span className="group-data-[collapsible=icon]:hidden font-semibold text-lg tracking-tighter text-foreground">
-              VoiceForge
+              Resonance
             </span>
           </Link>
           <SidebarTrigger className="ml-auto lg:hidden" />
